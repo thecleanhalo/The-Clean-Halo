@@ -203,17 +203,6 @@ img{max-width:100%; display:block;}
 .deepclean-note p{margin:12px 0 0; color:var(--ink-soft); font-size:1.02rem;}
 .deepclean-note p em{font-style:italic; color:var(--ink);}
 
-/* ---------- pricing ---------- */
-.pricing{background:linear-gradient(180deg, rgba(234,244,251,.45), transparent);}
-.price-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:22px; max-width:920px; margin:0 auto;}
-.price-card{text-align:center; background:rgba(255,255,255,.7); backdrop-filter:blur(12px);
-  border:1px solid rgba(255,255,255,.9); border-radius:var(--radius); padding:38px 26px; box-shadow:var(--shadow-card);}
-.price-card .pname{font-family:var(--body); text-transform:uppercase; letter-spacing:.16em; font-size:.78rem; color:var(--cerulean-deep); margin-bottom:14px;}
-.price-card .pamt{font-family:var(--display); font-size:2.8rem; color:var(--ink); line-height:1;}
-.price-card .pamt span{font-size:1.1rem; color:var(--ink-faint); vertical-align:super;}
-.price-card .pstart{font-size:.78rem; text-transform:uppercase; letter-spacing:.14em; color:var(--ink-faint); margin-top:8px;}
-.price-note{text-align:center; margin:30px auto 0; max-width:560px; font-size:.9rem; color:var(--ink-faint);}
-
 /* ---------- reviews ---------- */
 .rev-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:22px; max-width:920px; margin:0 auto;}
 .rev-card{background:rgba(255,255,255,.7); backdrop-filter:blur(12px); border:1px solid rgba(255,255,255,.9);
@@ -283,7 +272,7 @@ img{max-width:100%; display:block;}
 
 /* ---------- responsive ---------- */
 @media (max-width:980px){
-  .why-grid, .svc-grid, .price-grid{grid-template-columns:1fr 1fr;}
+  .why-grid, .svc-grid{grid-template-columns:1fr 1fr;}
   .steps{grid-template-columns:1fr 1fr;} .steps-line{display:none;}
   .book-grid{grid-template-columns:1fr;}
   .foot-grid{grid-template-columns:1fr 1fr;}
@@ -294,7 +283,7 @@ img{max-width:100%; display:block;}
   .menu-toggle{display:flex;}
   .nav-cta{gap:0;}
   .mobile-menu{display:block;}
-  .why-grid, .svc-grid, .price-grid, .rev-grid, .steps, .grid-3{grid-template-columns:1fr;}
+  .why-grid, .svc-grid, .rev-grid, .steps, .grid-3{grid-template-columns:1fr;}
   .grid-2{grid-template-columns:1fr;}
   .foot-grid{grid-template-columns:1fr; gap:30px;}
   .book-panel{padding:30px 24px;}
@@ -579,36 +568,6 @@ img{max-width:100%; display:block;}
       <span class="eyebrow">Our One Standard</span>
       <p>Every new recurring client begins with a <em>Deep Clean</em>. It allows us to bring your home or business to The Clean Halo standard before transitioning into maintenance service — protecting the quality, consistency, and care you can expect at every visit.</p>
     </div>
-  </div>
-</section>
-
-<!-- ============ PRICING ============ -->
-<section class="section pricing" id="pricing">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <span class="eyebrow">Investment</span>
-      <h2>Transparent starting points</h2>
-      <p>Because every space is different, your exact quote is created during a quick phone call. Here's where our services begin.</p>
-    </div>
-    <div class="price-grid reveal">
-      <div class="price-card">
-        <p class="pname">Deep Cleans</p>
-        <p class="pamt"><span>$</span>300<span>+</span></p>
-        <p class="pstart">Starting At</p>
-      </div>
-      <div class="price-card">
-        <p class="pname">Maintenance Cleans</p>
-        <p class="pamt"><span>$</span>160<span>+</span></p>
-        <p class="pstart">Starting At</p>
-      </div>
-      <div class="price-card">
-        <p class="pname">Move-In / Move-Out</p>
-        <p class="pamt"><span>$</span>400<span>+</span></p>
-        <p class="pstart">Starting At</p>
-      </div>
-    </div>
-    <p class="price-note reveal">Your personalized quote is determined during a quick phone call, based on your space's size, condition, and the plan you choose.</p>
-    <p class="price-note reveal" style="margin-top:10px;">Commercial properties are quoted individually based on square footage, scope, and frequency &mdash; request a free quote for a custom estimate.</p>
   </div>
 </section>
 
